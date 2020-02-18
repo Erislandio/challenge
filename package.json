@@ -17,9 +17,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+  "homepage": "https://erislandio.github.io/challenge/",
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
